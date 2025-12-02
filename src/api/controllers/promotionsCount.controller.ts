@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import Promotion from '../../models/promotion.model';
+import Promotion from '../../models/promotion.model.js';
 // GET /api/promotions/count-since?date=YYYY-MM-DDTHH:mm:ss.sssZ
 export async function getPromotionsCountSinceController(req: Request, res: Response) {
   try {
