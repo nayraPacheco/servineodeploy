@@ -30,6 +30,15 @@ class NotificationService {
     this.emailProvider = new EmailProvider();
     this.whatsappProvider = new WhatsAppProvider();
   }
+  public async sendGenericEmail(to: string, subject: string, body: string) {
+  try {
+    await this.emailProvider.send(to, subject, body);
+  } catch (error) {
+    console.error(`🚨 Error enviando email genérico a ${to}:`, (error as Error).message);
+    throw error;
+  }
+}
+
 
   // 1. Lógica para enviar notificaciones de confirmación de cita (Agendada)
   public async sendAppointmentConfirmation(
