@@ -1,6 +1,6 @@
 
 import nodemailer from 'nodemailer';
-import { ENV } from '../../config/env.config';
+import { ENV } from '../../config/env.config.js';
 
 export class EmailProvider {
   private transporter: nodemailer.Transporter | null = null;

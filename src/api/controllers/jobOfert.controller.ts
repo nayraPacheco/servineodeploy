@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { getAllOffers, getOffersFiltered, getPriceRanges } from '../../services/jobOfert.service';
 import { SortCriteria } from '../../types/sort.types';
-import { Offer } from '../../models/offer.model';
+import { Offer } from '../../models/offer.model.js';
 import { getTagsForOffers } from '../../services/resultsAdvSearch/tags.service';
 
 import {

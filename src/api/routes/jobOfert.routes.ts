@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getOffers, getUniqueTags } from '../controllers/jobOfert.controller';
+import { getOffers, getUniqueTags } from '../controllers/jobOfert.controller.js';
 
 const router = Router();
 

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { FixerService } from '../../services/common/FixerService';
 import { EnableFixerInput } from '../../types/EnableFixerInput';
-import { Offer } from '../../models/offer.model'; // ← AÑADIDO
+import { Offer } from '../../models/offer.model.js'; // ← AÑADIDO
 
 const fixerService = new FixerService();
 

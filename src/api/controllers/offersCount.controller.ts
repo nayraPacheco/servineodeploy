@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Offer } from '../../models/offer.model';
+import { Offer } from '../../models/offer.model.js';
 
 // GET /api/offers/count-since?date=YYYY-MM-DDTHH:mm:ss.sssZ
 export async function getOffersCountSinceController(req: Request, res: Response) {

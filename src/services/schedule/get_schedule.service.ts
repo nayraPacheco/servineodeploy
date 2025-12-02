@@ -1,6 +1,6 @@
 import * as dotenv from 'dotenv';
-import db_connection from '../../database';
-import Appointment from '../../models/Appointment';
+import db_connection from '../../database.js';
+import Appointment from '../../models/Appointment.js';
 
 dotenv.config();
 

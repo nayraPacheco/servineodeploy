@@ -1,7 +1,7 @@
 // src/api/routes/notification.routes.ts
 
 import { Router } from 'express';
-import { handleSendEmail } from '../controllers/notification.controller';
+import { handleSendEmail } from '../controllers/notification.controller.js';
 
 const router = Router();
 

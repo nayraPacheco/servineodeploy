@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { enableFixer } from '../controllers/fixer.controller';
-import { getMyOffers } from '../controllers/fixer.controller';
+import { enableFixer } from '../controllers/fixer.controller.js';
+import { getMyOffers } from '../controllers/fixer.controller.js';
 
 const router = Router();
 

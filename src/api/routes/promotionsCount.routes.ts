@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getPromotionsCountSinceController } from '../controllers/promotionsCount.controller';
+import { getPromotionsCountSinceController } from '../controllers/promotionsCount.controller.js';
 const router = Router();
 // GET /api/promotions/count-since?date=YYYY-MM-DDTHH:mm:ss.sssZ
 router.get('/promotions/count-since', getPromotionsCountSinceController);

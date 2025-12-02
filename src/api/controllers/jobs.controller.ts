@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Job } from '../../models/jobs.model';
+import { Job } from '../../models/jobs.model.js';
 
 export async function createJobController(req: Request, res: Response) {
   try {

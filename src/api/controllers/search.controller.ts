@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import Search from '../../models/search.model';
+import Search from '../../models/search.model.js';
 
 // GET - Obtener todas las búsquedas
 export async function getSearches(req: Request, res: Response): Promise<void> {
