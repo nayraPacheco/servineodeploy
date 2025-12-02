@@ -1,5 +1,5 @@
 import { PipelineStage } from 'mongoose';
-import { Offer } from '../../models/offer.model';
+import { Offer } from '../../models/offer.model.js';
 
 type TagOpts = {
   search?: string;

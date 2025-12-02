@@ -1,14 +1,14 @@
 import express from 'express';
 import cors from 'cors';
-import HealthRoutes from './api/routes/health.routes';
-import jobOfertRoutes from './api/routes/jobOfert.routes';
-import newoffersRoutes from './api/routes/newOffers.routes';
-import fixerRoutes from './api/routes/fixer.routes';
-import activityRoutes from './api/routes/activities.routes';
-import jobsRoutes from './api/routes/jobs.routes';
-import notificationRoutes from './api/routes/notification.routes';
+import HealthRoutes from './api/routes/health.routes.js';
+import jobOfertRoutes from './api/routes/jobOfert.routes.js';
+import newoffersRoutes from './api/routes/newOffers.routes.js';
+import fixerRoutes from './api/routes/fixer.routes.js';
+import activityRoutes from './api/routes/activities.routes.js';
+import jobsRoutes from './api/routes/jobs.routes.js';
+import notificationRoutes from './api/routes/notification.routes.js';
 
-import searchRoutes from './api/routes/search.routes';
+import searchRoutes from './api/routes/search.routes.js';
 const app = express();
 
 app.use(

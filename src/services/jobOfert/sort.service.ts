@@ -1,6 +1,6 @@
 // services/jobOfert/sort.service.ts
 import { SortCriteria, DEFAULT_SORT_CONFIG } from '../../types/sort.types';
-import { SortService } from '../common/sort.common';
+import { SortService } from '../common/sort.common.js';
 
 export function sortOffers(sortBy?: string | SortCriteria): any {
   const criteria = sortBy || DEFAULT_SORT_CONFIG.sortBy;

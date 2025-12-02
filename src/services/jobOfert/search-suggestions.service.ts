@@ -1,6 +1,6 @@
 // src/services/jobOfert/search-suggestions.service.ts
-import { SearchHistory } from '../../models/search-history.model';
-import { Offer } from '../../models/offer.model';
+import { SearchHistory } from '../../models/search-history.model.js';
+import { Offer } from '../../models/offer.model.js';
 import { normalizeForHistory } from '../../utils/search.normalizer';
 
 function escapeRegex(text: string) {

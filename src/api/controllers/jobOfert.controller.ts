@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
-import { getAllOffers, getOffersFiltered, getPriceRanges } from '../../services/jobOfert.service';
+import { getAllOffers, getOffersFiltered, getPriceRanges } from '../../services/jobOfert.service.js';
 import { SortCriteria } from '../../types/sort.types';
 import { Offer } from '../../models/offer.model.js';
-import { getTagsForOffers } from '../../services/resultsAdvSearch/tags.service';
+import { getTagsForOffers } from '../../services/resultsAdvSearch/tags.service.js';
 
 import {
   saveSearchToHistory,
@@ -11,8 +11,8 @@ import {
   reenqueueOldSearches,
   clearAllHistory,
   getSearchHistory,
-} from '../../services/jobOfert/search-history.service';
-import { filterSuggestions } from '../../services/jobOfert/search-suggestions.service';
+} from '../../services/jobOfert/search-history.service.js';
+import { filterSuggestions } from '../../services/jobOfert/search-suggestions.service.js';
 import {
   validatePageRange,
   normalizePageParam,

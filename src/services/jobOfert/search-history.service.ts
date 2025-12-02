@@ -1,5 +1,5 @@
 // services/jobOfert/search-history.service.ts
-import { SearchHistory } from '../../models/search-history.model';
+import { SearchHistory } from '../../models/search-history.model.js';
 import { normalizeForHistory } from '../../utils/search.normalizer';
 import {
   validateAndCleanSearchTerm,

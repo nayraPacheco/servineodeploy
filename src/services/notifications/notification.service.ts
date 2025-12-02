@@ -29,6 +29,7 @@ class NotificationService {
   constructor() {
     this.emailProvider = new EmailProvider();
     this.whatsappProvider = new WhatsAppProvider();
+    console.log(`📧 EmailProvider enabled: ${this.emailProvider.isEnabled()}`);
   }
   public async sendGenericEmail(to: string, subject: string, body: string) {
   try {

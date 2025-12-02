@@ -15,4 +15,5 @@ export const ENV = {
   SMTP_USER: process.env.SMTP_USER,
   SMTP_PASSWORD: process.env.SMTP_PASSWORD,
   SMTP_FROM: process.env.SMTP_FROM,
+  SMTP_VERIFY_ON_START: process.env.SMTP_VERIFY_ON_START === 'true',
 };

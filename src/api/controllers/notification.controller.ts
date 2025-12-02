@@ -2,7 +2,7 @@
 
 import { Request, Response } from 'express';
 // Importamos nuestra instancia del servicio
-import { notificationService } from '../../services/notifications/notification.service';
+import { notificationService } from '../../services/notifications/notification.service.js';
 
 /**
  * Manejador para la solicitud de envío de email

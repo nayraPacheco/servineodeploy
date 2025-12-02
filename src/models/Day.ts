@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import Appointment from './Appointment';
+import Appointment from './Appointment.js';
 
 const day_schema = new mongoose.Schema(
     {

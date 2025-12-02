@@ -2,7 +2,7 @@
 import { getRangeRegex } from '../../utils/nameRangeHelper';
 import { validateAndNormalizeCity } from '../../utils/cityHelper';
 import { validateAndNormalizeCategory } from '../../utils/categoryHelper';
-import { FilterCommon } from '../common/filter.common';
+import { FilterCommon } from '../common/filter.common.js';
 
 export type FilterOptions = {
   ranges?: string[];

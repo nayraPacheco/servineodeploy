@@ -1,5 +1,5 @@
 import { JobOfferRepository } from "../../types/newJobOfferRepository";
-import { JobOfferModel } from "../../models/newJobOffer.model";
+import { JobOfferModel } from "../../models/newJobOffer.model.js";
 import { CreateOfferInput } from "../../types/newOfferInput";
 
 export class JobOfferMongoRepository implements JobOfferRepository {

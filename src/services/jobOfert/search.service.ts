@@ -1,6 +1,6 @@
 // services/jobOfert/search.service.ts
 import { normalizeSearchText } from '../../utils/search.normalizer';
-import { SearchService } from '../common/search.common';
+import { SearchService } from '../common/search.common.js';
 
 const SEARCH_FIELDS = ['fixerName', 'title', 'description', 'category', 'city'];
 

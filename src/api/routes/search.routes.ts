@@ -4,7 +4,7 @@ import {
   createSearch,
   updateSearch,
   deleteSearch,
-} from '../controllers/search.controller';
+} from '../controllers/search.controller.js';
 const router = Router();
 
 router.get('/searches', getSearches);

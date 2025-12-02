@@ -1,17 +1,17 @@
 // services/jobOfert.service.ts
-import { Offer } from '../models/offer.model';
+import { Offer } from '../models/offer.model.js';
 import {
   searchOffers,
   searchOffersExactFields,
   searchOffersInFields,
-} from './jobOfert/search.service';
-import { sortOffers } from './jobOfert/sort.service';
-import { FilterCommon } from './common/filter.common';
-import { PaginationCommon } from './common/pagination.common';
-import { QueryExecutor } from './common/query-executor';
+} from './jobOfert/search.service.js';
+import { sortOffers } from './jobOfert/sort.service.js';
+import { FilterCommon } from './common/filter.common.js';
+import { PaginationCommon } from './common/pagination.common.js';
+import { QueryExecutor } from './common/query-executor.js';
 import { SortCriteria } from '../types/sort.types';
-import { filterOffers as standardFilterOffers } from './jobOfert/filter.service';
-import { filterOffers as advancedFilterOffers } from './jobOfert/advancedFilter.service';
+import { filterOffers as standardFilterOffers } from './jobOfert/filter.service.js';
+import { filterOffers as advancedFilterOffers } from './jobOfert/advancedFilter.service.js';
 
 export type OfferFilterOptions = {
   ranges?: string[];
